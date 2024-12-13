@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .container {
+    width: 40%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: calc(100% - 120px);
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #d3d3d3;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: -35px; /* Піднімаємо кнопку на 35 пікселів */
+  }
+  
+  button:hover {
+    background-color: #bbb;
+  }
+  
